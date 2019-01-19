@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/animation"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingStart="16dp"
+    android:paddingBottom="16dp"
+    android:paddingEnd="16dp"
+    android:paddingVertical="16dp"
+    android:paddingHorizontal="16dp"
+    tools:context=".SolveActivity">
+
+
+
+    <LinearLayout
+
+
+
+
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        >
+
+        <EditText
+            android:id="@+id/inputCharacters"
+
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="24dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginBottom="8dp"
+            android:ems="10"
+            android:hint="Please enter characters for word (without space)"
+            android:inputType="textPersonName"
+            android:textColor="@color/white"
+            android:textColorHint="@color/colorAccent"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toTopOf="@+id/inputLength"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.266" />
+
+        <EditText
+            android:id="@+id/inputLength"
+
+
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@id/inputCharacters"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="24dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginBottom="100dp"
+            android:hint="Please enter size of word"
+            android:inputType="numberSigned"
+            android:textColor="@color/white"
+            android:textColorHint="@color/colorAccent"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toTopOf="@+id/buttonGenerate"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+
+        <Button
+            android:id="@+id/buttonGenerate"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:background="@drawable/round_button"
+            android:text="Genrate"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:layout_marginTop="80dp"
+            android:layout_gravity="center"
+
+            />
+
+
+
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:text="Developed by Maifee Ul Asad"
+            android:layout_marginTop="50dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="https://github.com/maifeeulasad"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:layout_marginTop="9dp"
+            android:autoLink="web"
+            />
+
+
+
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:text="https://www.linkedin.com/in/maifee-ul-asad/"
+            android:layout_marginTop="9dp"
+            android:autoLink="web"
+            />
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</RelativeLayout>
+
+
+
+
+
+
+
+
